@@ -1,0 +1,26 @@
+{
+  "name": "mobilewright_end2_end_fw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mobilewright test",
+    "test:ios": "mobilewright test --project=ios",
+    "test:android": "mobilewright test --project=android",
+    "test:smoke": "mobilewright test --grep @smoke",
+    "test:regression": "mobilewright test --grep @regression",
+    "test:e2e": "mobilewright test --grep @e2e",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@mobilewright/test": "0.0.65",
+    "@types/node": "24.19.2",
+    "dotenv": "^18.0.7",
+    "mobilewright": "0.0.65",
+    "typescript": "^7.0.2"
+  }
+}

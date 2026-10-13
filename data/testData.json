@@ -1,0 +1,20 @@
+{
+    "loginData": {
+        "valid": {
+            "email": "test.user@example.com",
+            "password": "Password123"
+        },
+        "invalidEmail": {
+            "email": "not-an-email",
+            "password": "Password123"
+        },
+        "shortPassword": {
+            "email": "test.user@example.com",
+            "password": "123"
+        },
+        "blank": {
+            "email": "",
+            "password": ""
+        }
+    }
+}

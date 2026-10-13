@@ -1,0 +1,12 @@
+# Node dependencies
+node_modules/
+
+# Environment (real values) - .env.example is committed
+.env
+
+# Mobilewright output
+mobilewright-report/
+test-results/
+
+# macOS
+.DS_Store
